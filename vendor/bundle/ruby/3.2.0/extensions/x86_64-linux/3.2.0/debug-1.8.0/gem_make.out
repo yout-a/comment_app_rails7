@@ -1,0 +1,19 @@
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/koba/.rbenv/versions/3.2.0/bin/ruby -I /home/koba/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250822-1243803-pw4sia sitelibdir\=./.gem.20250822-1243803-pw4sia clean
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250822-1243803-pw4sia sitelibdir\=./.gem.20250822-1243803-pw4sia
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250822-1243803-pw4sia sitelibdir\=./.gem.20250822-1243803-pw4sia install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250822-1243803-pw4sia/debug
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250822-1243803-pw4sia sitelibdir\=./.gem.20250822-1243803-pw4sia clean

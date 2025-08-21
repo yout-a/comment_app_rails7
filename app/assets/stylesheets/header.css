@@ -1,0 +1,17 @@
+.top-page-header{
+  display: flex;
+}
+
+.top-page-header{
+  display: flex;
+}
+
+.lists{
+  margin: 0;
+  padding: 0;
+}
+
+.user_name, .logout, .login, .sign-up{
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
