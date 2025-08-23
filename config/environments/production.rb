@@ -7,6 +7,7 @@ Rails.application.configure do
     'http://13.158.106.219',
     'https://13.158.106.219'
   ]
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
