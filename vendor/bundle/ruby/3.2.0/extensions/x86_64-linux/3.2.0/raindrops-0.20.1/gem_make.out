@@ -1,0 +1,174 @@
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/raindrops-0.20.1/ext/raindrops
+/home/koba/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+checking for mmap() in sys/mman.h... yes
+checking for munmap() in sys/mman.h... yes
+checking for mremap() in sys/mman.h... yes
+checking for linux/tcp.h... yes
+checking for struct tcp_info in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_state in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_ca_state in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_retransmits in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_probes in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_backoff in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_options in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_wscale in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_rcv_wscale in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_rto in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_ato in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_mss in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rcv_mss in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_unacked in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_sacked in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_lost in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_retrans in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_fackets in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_last_data_sent in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_last_ack_sent in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_last_data_recv in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_last_ack_recv in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_pmtu in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rcv_ssthresh in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rtt in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rttvar in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_ssthresh in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_cwnd in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_advmss in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_reordering in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rcv_rtt in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_rcv_space in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_total_retrans in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_wnd in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_bwnd in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_snd_nxt in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_rcv_nxt in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_toe_tid in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_snd_rexmitpack in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for struct tcp_info.tcpi_rcv_ooopack in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... yes
+checking for struct tcp_info.tcpi_snd_zerowin in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_ESTABLISHED in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_ESTABLISHED in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_SYN_SENT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_SYN_SENT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_SYN_RECV in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_SYN_RECEIVED in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_FIN_WAIT1 in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_FIN_WAIT_1 in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_FIN_WAIT2 in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_FIN_WAIT_2 in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_TIME_WAIT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_TIME_WAIT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_CLOSE in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_CLOSED in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_CLOSE_WAIT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_CLOSE_WAIT in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_LAST_ACK in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_LAST_ACK in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_LISTEN in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_LISTEN in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCP_CLOSING in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for TCPS_CLOSING in sys/types.h,netdb.h,string.h,sys/socket.h,netinet/in.h,linux/tcp.h... no
+checking for getpagesize() in unistd.h... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_io_blocking_region()... yes
+checking for GCC 4+ atomic builtins... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/raindrops-0.20.1/ext/raindrops
+make DESTDIR\= sitearchdir\=./.gem.20250823-56862-hv0x9n sitelibdir\=./.gem.20250823-56862-hv0x9n clean
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/raindrops-0.20.1/ext/raindrops
+make DESTDIR\= sitearchdir\=./.gem.20250823-56862-hv0x9n sitelibdir\=./.gem.20250823-56862-hv0x9n
+compiling linux_inet_diag.c
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/defines.h:16,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/ruby.h:25,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby.h:38,
+                 from linux_inet_diag.c:1:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+In file included from linux_inet_diag.c:4:
+my_fileno.h:16:25: warning: "RUBY_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+   16 | #  if !HAVE_RB_IO_T || (RUBY_VERSION_MAJOR == 1 && RUBY_VERSION_MINOR == 8)
+      |                         ^~~~~~~~~~~~~~~~~~
+linux_inet_diag.c: In function ‘stats_for’:
+linux_inet_diag.c:239:14: warning: ‘host’ may be used uninitialized [-Wmaybe-uninitialized]
+  239 |         if (!inet_ntop(r->idiag_family, src, host, hostlen)) {
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linux_inet_diag.c:214:15: note: ‘host’ was declared here
+  214 |         char *host, *key, *port, *old_key;
+      |               ^~~~
+linux_inet_diag.c:241:22: warning: ‘key’ may be used uninitialized [-Wmaybe-uninitialized]
+  241 |                 *key = '\0';
+      |                 ~~~~~^~~~~~
+linux_inet_diag.c:214:22: note: ‘key’ was declared here
+  214 |         char *host, *key, *port, *old_key;
+      |                      ^~~
+In file included from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/ruby.h:303:
+/home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/subst.h:13:18: warning: ‘alloca_len’ may be used uninitialized [-Wmaybe-uninitialized]
+   13 | #define snprintf ruby_snprintf
+linux_inet_diag.c:272:21: note: in expansion of macro ‘snprintf’
+  272 |                 n = snprintf(key, alloca_len, "%s:%u",
+      |                     ^~~~~~~~
+linux_inet_diag.c:215:16: note: ‘alloca_len’ was declared here
+  215 |         size_t alloca_len;
+      |                ^~~~~~~~~~
+linux_inet_diag.c:239:14: warning: ‘hostlen’ may be used uninitialized [-Wmaybe-uninitialized]
+  239 |         if (!inet_ntop(r->idiag_family, src, host, hostlen)) {
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linux_inet_diag.c:217:19: note: ‘hostlen’ was declared here
+  217 |         socklen_t hostlen;
+      |                   ^~~~~~~
+/home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/subst.h:13:18: warning: ‘port’ may be used uninitialized [-Wmaybe-uninitialized]
+   13 | #define snprintf ruby_snprintf
+linux_inet_diag.c:260:13: note: in expansion of macro ‘snprintf’
+  260 |         n = snprintf(port, portlen, "%u", ntohs(r->id.idiag_sport));
+      |             ^~~~~~~~
+linux_inet_diag.c:214:28: note: ‘port’ was declared here
+  214 |         char *host, *key, *port, *old_key;
+      |                            ^~~~
+At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling raindrops.c
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/defines.h:16,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/ruby.h:25,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby.h:38,
+                 from raindrops.c:1:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling tcp_info.c
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/defines.h:16,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby/ruby.h:25,
+                 from /home/koba/.rbenv/versions/3.2.3/include/ruby-3.2.0/ruby.h:38,
+                 from tcp_info.c:1:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+In file included from tcp_info.c:16:
+my_fileno.h:16:25: warning: "RUBY_VERSION_MAJOR" is not defined, evaluates to 0 [-Wundef]
+   16 | #  if !HAVE_RB_IO_T || (RUBY_VERSION_MAJOR == 1 && RUBY_VERSION_MINOR == 8)
+      |                         ^~~~~~~~~~~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object raindrops_ext.so
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/raindrops-0.20.1/ext/raindrops
+make DESTDIR\= sitearchdir\=./.gem.20250823-56862-hv0x9n sitelibdir\=./.gem.20250823-56862-hv0x9n install
+/usr/bin/install -c -m 0755 raindrops_ext.so ./.gem.20250823-56862-hv0x9n
+
+current directory: /home/koba/projects/comment_app_rails7/vendor/bundle/ruby/3.2.0/gems/raindrops-0.20.1/ext/raindrops
+make DESTDIR\= sitearchdir\=./.gem.20250823-56862-hv0x9n sitelibdir\=./.gem.20250823-56862-hv0x9n clean
